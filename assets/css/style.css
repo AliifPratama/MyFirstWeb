@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background: linear-gradient(to right, #6B73FF, #000DFF);
+
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li {
+    padding: 0 4px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 450;
+    float: right;
+    text-align: right;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* BANNER SECTION */
+
+#banner {
+    background: linear-gradient(to right, #6B73FF, #000DFF);
+    color: #fff;
+    padding-top: 5%;
+
+}
+
+#banner .btn-outline-light {
+    padding: 8px 25px;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.github {
+    width: 40px;
+    margin: 20px;
+
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 20px;
+
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.icon {
+    padding-right: 20px;
+}
+
+.icon .lni {
+    margin-right: 20px;
+}
+
+/* service  Bro*/
+
+#service {
+    padding: 80px, 0;
+}
+
+.service-img {
+    width: 70px;
+    margin-top: 10px;
+}
+
+.service {
+    padding: 20px;
+}
+
+.service h4 {
+    font-weight: bold;
+    margin-top: 25px;
+    text-transform: uppercase;
+
+}
+
+.title {
+    font-weight: bold;
+}
+
+.title::after {
+    content: '';
+    background: linear-gradient(to right, #6B73FF, #000DFF);
+    height: 5px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    transform: translateY(15px);
+}
+
+#service .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #6B73FF, #000DFF);
+
+
+}
+
+/* ABOUT US */
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 8%;
+    font-family: sans-serif;
+}
+
+
+
+.isometric {
+    width: 400px;
+}
+
+
+
+/* ------------------------SKILS BAR------------------------------ */
